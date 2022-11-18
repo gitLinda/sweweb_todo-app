@@ -1,0 +1,9 @@
+.input-area {
+  border: 1px solid black;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.submit {
+  margin-top: 15px;
+}

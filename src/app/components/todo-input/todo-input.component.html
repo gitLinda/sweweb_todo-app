@@ -1,0 +1,14 @@
+<p>Dies ist eine TODO Liste. Trage Name und Tätigkeit ein.</p>
+<form class="input-area">
+  <table>
+    <tr>
+      <td>Name:</td>
+      <td><input name="name" type="text" [(ngModel)]="name"></td>
+    </tr>
+    <tr>
+      <td>Todo:</td>
+      <td><input name="todo" type="text" [(ngModel)]="value"></td>
+    </tr>
+  </table>
+  <button (click)="addTodo()" class="submit">Submit</button>
+</form>
